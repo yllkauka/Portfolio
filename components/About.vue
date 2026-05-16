@@ -20,6 +20,15 @@
       <img src="../assets/6.jpg" alt="" />
     </div>
   </section>
+  <div class="cv-section">
+    <a href="/Portfolio/cv.pdf" download class="buttonet">
+      Download CV
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+        <path d="M8 2v8M4 7l4 4 4-4M3 13h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </a>
+  </div>
+
   <ExperienceComponent></ExperienceComponent>
 
 </template>
@@ -87,10 +96,21 @@ export default {
   }
 }
 
+.cv-section {
+  width: 100%;
+  max-width: 740px;
+  padding: 0 40px;
+}
+
+@media (max-width: 768px) {
+  .cv-section { padding: 0 24px; }
+}
+
 @media (max-width: 480px) {
   .about {
     padding: 0 16px;
   }
+  .cv-section { padding: 0 16px; }
   .gallery img {
     flex: 1 1 calc(100% - 20px);
     max-width: calc(100% - 20px);
