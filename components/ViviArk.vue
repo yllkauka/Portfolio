@@ -15,12 +15,12 @@
         <section class="sticky-text-gallery">
           <div class="text-section">
             <h2>Creating an Intuitive Architecture Platform</h2>
-            <p>Viviark is an architecture website designed from the ground up to enhance the browsing and project exploration experience. My task was to simplify the navigation process, making it more intuitive for users to discover and interact with architectural designs.</p>
+            <p>Viviark is an architecture platform designed to elevate how users explore and experience architectural projects. The goal was to simplify navigation and make discovery effortless.</p>
             <p>My approach focused on:</p>
             <ul>
-                <li>Streamlining the browsing experience with a clean, user-friendly layout.</li>
-                <li>Introducing dynamic filtering to allow users to easily find projects by category or style.</li>
-                <li>Ensuring the design was highly visual, making each project feel immersive and engaging.</li>
+                <li>Designing a clean, structured layout that enhances usability.</li>
+                <li>Introducing dynamic filtering for seamless project discovery by category and style.</li>
+                <li>Creating a highly visual experience that makes each project feel immersive.</li>
             </ul>
           </div>
           <div class="gallery" id="gallery1">

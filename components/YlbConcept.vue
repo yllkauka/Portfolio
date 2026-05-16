@@ -14,11 +14,12 @@
       <section class="sticky-text-gallery">
         <div class="text-section">
           <h2>Designing a Boutique Brand Experience</h2>
-          <p>YLB Concept needed a digital presence that aligned with their boutique's premium offerings and stylish aesthetic. My work focused on elevating their brand through:</p>
+          <p>YLB Concept is a Switzerland-based boutique specializing in sneakers and shirts. I developed a cohesive brand identity and digital experience that reflects its premium and modern aesthetic.</p>
+            <p>My work focused on:</p>
           <ul>
-              <li>Creating a minimalist and modern logo that embodies the boutique's essence.</li>
+              <li>Crafting a minimalist, distinctive logo aligned with the brand’s identity.</li>
               <li>Designing an intuitive website that showcases their products with visual appeal.</li>
-              <li>Implementing user-friendly navigation to enhance the shopping experience.</li>
+              <li>Building intuitive navigation to enhance the shopping experience.</li>
           </ul>
           </div>
           <div class="gallery" id="gallery1">

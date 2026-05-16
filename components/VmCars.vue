@@ -14,12 +14,13 @@
 
         <section class="sticky-text-gallery">
           <div class="text-section">
-          <h2>Creating a Luxurious Digital Experience for VM Premium Cars</h2>
-          <p>VM Premium Cars needed a digital presence that reflected their high-end offerings. My work focused on delivering a premium experience through:</p>
+          <h2>Creating a Luxury Digital Experience</h2>
+          <p>VM Premium Cars is a Switzerland-based dealership offering high-end vehicles. The objective was to translate their premium positioning into a refined digital experience.</p>
+          <p>My work focused on:</p>
           <ul>
-              <li>Designing an elegant and memorable logo that captures the essence of luxury and sophistication.</li>
-              <li>Developing a user-friendly website that highlights the car collection with stunning visuals.</li>
-              <li>Ensuring seamless navigation for users to explore and learn about their premium vehicles.</li>
+              <li>Designing an elegant logo that conveys luxury and sophistication.</li>
+              <li>Building a visually rich website to highlight the vehicle collection.</li>
+              <li>Structuring a smooth navigation flow for effortless browsing.</li>
           </ul>
           </div>
           <div class="gallery" id="gallery1">

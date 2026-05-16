@@ -14,11 +14,12 @@
       <section class="sticky-text-gallery">
         <div class="text-section">
           <h2>Building a Digital Identity for Ares Tech</h2>
-          <p>Ares Tech required a strong digital presence to reflect their technological expertise. My work focused on achieving this through:</p>
+          <p>Ares Tech is a forward-thinking software platform aimed at improving workflows and productivity. I designed a clean, user-focused digital presence that communicates innovation and clarity.</p>
+          <p>My contributions included:</p>
           <ul>
-              <li>Designing a sleek and professional logo that captures the essence of innovation.</li>
-              <li>Developing an intuitive website to showcase the platform's features and capabilities.</li>
-              <li>Ensuring a seamless user experience with responsive design and clear navigation.</li>
+              <li>Creating a sleek, professional logo that reflects a tech-driven identity.</li>
+              <li>Designing a modern website to clearly present features and value.</li>
+              <li>Ensuring a seamless user experience through responsive and intuitive design.</li>
           </ul>
           </div>
           <div class="gallery" id="gallery1">

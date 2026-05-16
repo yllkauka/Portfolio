@@ -1,12 +1,7 @@
-/* Google Fonts */
+/* ── Fonts ── */
+@import url("https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300&family=DM+Mono:ital,wght@0,400;0,500;1,400&display=swap");
 
-@import url("https://fonts.googleapis.com/css2?family=Alice&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=DM+Mono&display=swap");
-
-/* Josh's Custom CSS Reset
-  https://www.joshwcomeau.com/css/custom-css-reset/ */
-
+/* ── CSS Reset ── */
 *,
 *::before,
 *::after {
@@ -47,76 +42,88 @@ h6 {
   isolation: isolate;
 }
 
-/* Colors */
-
+/* ── Design Tokens ── */
 :root {
-  --primary-color: #fff;
-  --secondary-color: #acacac;
-  --tertiary-color: #5d5d5d;
-  --accent-color: #95fe3a;
-  --support-color: #2b2b2b;
-  --background-color: #050505;
-  --text-color: #e3e3e3;
+  --bg:            #080808;
+  --bg-raised:     #111111;
+  --bg-subtle:     #181818;
+  --border:        rgba(255, 255, 255, 0.07);
+  --border-mid:    rgba(255, 255, 255, 0.12);
+
+  --text-1: #efefef;
+  --text-2: #888888;
+  --text-3: #444444;
+
+  --accent:        #95fe3a;
+  --accent-muted:  rgba(149, 254, 58, 0.08);
+
+  /* Legacy aliases — used by project pages */
+  --primary-color:    var(--text-1);
+  --secondary-color:  var(--text-2);
+  --tertiary-color:   var(--text-3);
+  --accent-color:     var(--accent);
+  --support-color:    var(--bg-raised);
+  --background-color: var(--bg);
+  --text-color:       var(--text-1);
 }
 
 ::selection {
-  background-color: #184c9b; /* Background color when text is selected */
+  background-color: rgba(149, 254, 58, 0.2);
 }
 
-/*
-**************************
-Global CSS 
-**************************
-*/
+/* ── Base ── */
+body {
+  font-family: "DM Sans", sans-serif;
+  background-color: var(--bg);
+  color: var(--text-1);
+}
 
 h1,
 h2,
 h3,
 h4,
 h5,
+h6 {
+  font-family: "Syne", sans-serif;
+  color: var(--text-1);
+}
+
 p,
 a {
-  color: var(--primary-color);
-}
-
-body {
-  font-family: "Inter", serif;
-  background-color: var(--background-color);
-}
-
-h1,
-h2 {
-  font-family: "Alice", serif;
+  color: var(--text-1);
 }
 
 h1 {
-  font-weight: 400;
+  font-weight: 700;
   font-size: 5rem;
-  line-height: 100%;
-  text-align: left;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
 }
 
 h1.centered {
   text-align: center;
-  width: 984px;
+  width: 100%;
+  max-width: 984px;
 }
 
 h2 {
-  font-weight: 400;
+  font-weight: 700;
   font-size: 2.5rem;
-  line-height: 1.2em;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
 }
 
 h3 {
   font-size: 1rem;
-  font-weight: 500;
+  font-weight: 600;
+  letter-spacing: -0.01em;
 }
 
 p {
-  color: var(--text-color);
+  color: var(--text-2);
   font-weight: 400;
   font-size: 1rem;
-  line-height: 160%;
+  line-height: 1.7;
 }
 
 p.centered {
@@ -129,24 +136,24 @@ a {
 }
 
 p a {
-  color: var(--accent-color);
+  color: var(--accent);
   position: relative;
 }
 
 p a::after {
   content: "";
   position: absolute;
-  left: 50%; /* Start from the center */
+  left: 50%;
   transform: translateX(-50%);
-  height: 1px; /* thickness of the underline */
+  height: 1px;
   width: 0;
-  bottom: -4px; /* Adjust this to move the underline closer or further from the text */
-  background-color: var(--accent-color);
+  bottom: -2px;
+  background-color: var(--accent);
   transition: width 0.3s ease;
 }
 
 p a:hover::after {
-  width: calc(100%);
+  width: 100%;
 }
 
 ul {
@@ -154,11 +161,11 @@ ul {
 }
 
 li {
-  color: var(--text-color);
+  color: var(--text-2);
 }
 
 .highlight {
-  color: var(--accent-color);
+  color: var(--accent);
 }
 
 .header,
@@ -168,34 +175,40 @@ li {
   z-index: 2;
 }
 
-/* Primary button */
-
+/* ── Primary button ── */
 .buttonet {
-  padding: 12px 48px;
-  background-color: var(--accent-color);
-  border-radius: 4px;
-  color: var(--background-color);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  background-color: var(--accent);
+  border-radius: 6px;
+  color: #080808;
   font-weight: 600;
   font-size: 0.875rem;
+  letter-spacing: -0.01em;
+  transition: background-color 0.2s ease, transform 0.2s ease;
 }
 
 .buttonet:hover {
-  background-color: var(--primary-color);
+  background-color: #b8ff5e;
+  transform: translateY(-1px);
 }
 
 /*
 **************************
-Project components
+Project page components
 **************************
 */
 
 .project {
   width: 100%;
-  max-width: 1120px; /* Limit width for larger screens */
+  max-width: 1120px;
   display: flex;
   flex-direction: column;
   gap: 80px;
   align-items: center;
+  padding: 0 40px;
 }
 
 .main-content {
@@ -205,55 +218,56 @@ Project components
   align-items: center;
 }
 
-/***** Project hero ******/
-
+/* Project hero */
 .project .hero {
   display: flex;
   flex-direction: column;
-  gap: 80px;
+  gap: 48px;
 }
 
 .project .hero .title {
   width: 80%;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 20px;
 }
 
 .project .hero img {
   height: 555px;
-  border-radius: 4px;
-  object-fit: cover; /* Cover the container while preserving aspect ratio */
+  border-radius: 10px;
+  object-fit: cover;
 }
 
-/***** Project meta details ******/
-
+/* Project meta */
 .meta {
   display: flex;
   gap: 96px;
   width: 100%;
-  flex-wrap: wrap; /* This allows wrapping on smaller screens */
+  flex-wrap: wrap;
 }
 
 .meta-group {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 8px;
 }
 
 .meta-group h3 {
-  color: var(--secondary-color);
-  font-size: 0.95rem;
+  color: var(--text-3);
+  font-size: 0.75rem;
+  font-weight: 500;
+  font-family: "DM Mono", monospace;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
 }
 
 .meta-items {
   padding: 0;
-  color: var(--primary-color);
+  color: var(--text-1);
   list-style-type: none;
 }
 
-/***** Sticky-text-gallery ******/
-
+/* Sticky text gallery */
 .sticky-text-gallery {
   display: flex;
   align-items: flex-start;
@@ -263,7 +277,7 @@ Project components
 .sticky-text-gallery .text-section {
   flex: 1;
   position: sticky;
-  top: 40px;
+  top: 100px;
   max-width: 300px;
   display: flex;
   flex-direction: column;
@@ -274,42 +288,41 @@ Project components
   flex: 2;
   display: flex;
   flex-direction: column;
-  gap: 24px;
+  gap: 16px;
 }
 
 .sticky-text-gallery .gallery img {
   max-width: 100%;
   height: auto;
-  border-radius: 4px;
+  border-radius: 10px;
 }
 
-/***** Key contributions ******/
-
+/* Key contributions */
 .key-contributions {
   perspective: 1000px;
 }
+
 .key-contributions-container {
   display: flex;
   flex-direction: column;
   gap: 16px;
   align-items: center;
-  background: radial-gradient(53.4019% 96.0134% at 50% 24.5%, rgb(69, 69, 57) 0%, rgb(0, 0, 0) 72.6104%);
-  border-radius: 8px;
+  background: radial-gradient(53.4% 96% at 50% 24.5%, rgb(69, 69, 57) 0%, rgb(0, 0, 0) 72%);
+  border-radius: 12px;
   box-shadow: rgba(194, 193, 134, 0.14) 0px 0px 8px 6px;
-  border: 1px solid var(--tertiary-color);
+  border: 1px solid var(--border-mid);
   padding: 32px 60px 48px;
   text-align: center;
 }
 
 .key-contributions ul {
   padding: 0;
-  color: var(--primary-color);
+  color: var(--text-1);
   list-style-type: none;
   text-align: center;
 }
 
-/***** Prizes and awards ******/
-
+/* Prizes */
 .prizes {
   display: flex;
   align-items: center;
@@ -326,17 +339,16 @@ Project components
 .prizes-container img {
   max-height: 100px;
   max-width: 250px;
-  filter: grayscale(100%); /* Apply grayscale */
-  transition: filter 0.3s ease-out; /* Smooth transition on hover */
+  filter: grayscale(100%) brightness(0.55);
+  transition: filter 0.3s ease;
 }
 
 .prizes-container img:hover {
-  filter: grayscale(0%); /* Remove grayscale */
+  filter: grayscale(0%) brightness(1);
   cursor: pointer;
 }
 
-/***** Info blocks ******/
-
+/* Info block */
 .info-block {
   display: flex;
   flex-direction: column;
@@ -346,15 +358,14 @@ Project components
 
 .info-block ul {
   padding-left: 16px;
-  color: var(--primary-color);
+  color: var(--text-1);
 }
 
 .info-block ul li {
-  margin-top: 4px;
+  margin-top: 6px;
 }
 
-/***** Documentation ******/
-
+/* Documentation */
 .documentation {
   display: flex;
   flex-direction: column;
@@ -377,51 +388,63 @@ Project components
 
 .before-and-after figure {
   text-align: center;
-  flex: 1; /* Allow figures to share available space equally */
+  flex: 1;
 }
 
 .before-and-after figcaption {
-  color: var(--text-color);
-  margin-bottom: 24px;
+  color: var(--text-2);
+  margin-bottom: 16px;
 }
 
 .before-and-after img {
-  border-radius: 4px;
+  border-radius: 8px;
 }
 
-/********* Overlay on Lightbox image *********/
-
+/* Image overlay */
 .imageoverlay {
   position: relative;
   display: block;
   width: 100%;
   height: auto;
 }
+
 .imageoverlay::before {
   content: "";
   position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgba(0, 0, 0, 0); /* Initially transparent */
-  transition: background-color 0.3s ease; /* Smooth transition effect */
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0);
+  transition: background-color 0.3s ease;
   z-index: 1;
-  pointer-events: none; /* Prevents the overlay from blocking interactions */
+  pointer-events: none;
 }
 
 .imageoverlay:hover::before {
-  background-color: rgba(0, 0, 0, 0.2); /* Black with 50% opacity on hover */
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
-/* Media query for smaller screens */
-
+/* ── Responsive ── */
 @media (max-width: 767px) {
   h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
+  }
+  h1.centered {
+    width: 100%;
+  }
+  h2 {
+    font-size: 2rem;
   }
   .main-content {
     gap: 80px;
+  }
+  .project {
+    gap: 60px;
+    padding: 0 24px;
+  }
+  .project .hero .title {
+    width: 100%;
+  }
+  .project .hero img {
+    height: 380px;
   }
   .prizes-container {
     flex-direction: column;
@@ -432,26 +455,45 @@ Project components
   }
   .sticky-text-gallery .text-section {
     position: relative;
-    top: 0px;
-    max-width: max-content;
+    top: 0;
+    max-width: 100%;
+  }
+  .key-contributions-container {
+    padding: 32px 32px 48px;
   }
   .before-and-after {
     flex-direction: column;
-    gap: 16px; /* Adjust gap if needed */
+    gap: 16px;
   }
 }
 
 @media (max-width: 480px) {
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 1.6rem;
   }
   p.centered {
     padding: 0;
   }
   .meta {
-    gap: 48px;
+    gap: 32px;
   }
   .main-content {
     gap: 48px;
+  }
+  .project {
+    gap: 40px;
+    padding: 0 16px;
+  }
+  .project .hero img {
+    height: 220px;
+  }
+  .key-contributions-container {
+    padding: 24px 20px 32px;
+  }
+  .prizes-container img {
+    max-width: 180px;
   }
 }

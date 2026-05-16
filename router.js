@@ -12,6 +12,8 @@ import PixelSnap from './components/PixelSnap.vue';
 import Tifera from './components/Tifera.vue';
 import DigitalNugget from './components/DigitalNugget.vue';
 import ProjectNoimos from './components/ProjectNoimos.vue';
+import YuDesignStudio from './components/YuDesignStudio.vue';
+import SwiftyGlobal from './components/SwiftyGlobal.vue';
 
 
 const routes = [
@@ -27,6 +29,8 @@ const routes = [
     { path: '/tifera', component: Tifera },
     { path: '/digital', component: DigitalNugget },
     { path: '/noimos', component: ProjectNoimos },
+    { path: '/yu', component: YuDesignStudio },
+    { path: '/swifty', component: SwiftyGlobal },
 
     /* ONLY FOR TEMPLATE PREVIEW
     Comment for production */

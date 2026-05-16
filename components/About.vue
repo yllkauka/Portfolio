@@ -49,10 +49,12 @@ export default {
 
 <style scoped>
 .about {
+  width: 100%;
   max-width: 740px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0 40px;
 }
 .about p {
   margin-top: 28px;
@@ -76,15 +78,21 @@ export default {
 }
 
 @media (max-width: 768px) {
+  .about {
+    padding: 0 24px;
+  }
   .gallery img {
-    flex: 1 1 calc(50% - 20px); /* 2 columns on smaller screens */
+    flex: 1 1 calc(50% - 20px);
     max-width: calc(50% - 20px);
   }
 }
 
 @media (max-width: 480px) {
+  .about {
+    padding: 0 16px;
+  }
   .gallery img {
-    flex: 1 1 calc(100% - 20px); /* 1 column on very small screens */
+    flex: 1 1 calc(100% - 20px);
     max-width: calc(100% - 20px);
   }
 }
