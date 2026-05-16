@@ -1,5 +1,5 @@
 // router.js
-import { createRouter, createWebHistory } from 'vue-router';
+import { createRouter, createWebHashHistory } from 'vue-router';
 import Home from './components/Home.vue';
 import About from './components/About.vue';
 import ProjectTemplate from './components/ProjectTemplate.vue';
@@ -33,9 +33,8 @@ const routes = [
     { path: '/project-template', component: ProjectTemplate },
 
 ];
-ViviArk
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHashHistory(),
     routes,
 });
 

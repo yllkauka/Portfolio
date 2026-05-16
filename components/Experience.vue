@@ -7,12 +7,20 @@
           <div class="experience-item">
             <h3>Swifty Global</h3>
             <div class="dashed-line"></div>
-            <div class="position">Product Designer</div>
+            <div class="position">Head of Design</div>
           </div>
           <div class="date"> Apr 2022 — Now </div>
         </li>
         <li>
           <div class="experience-item">
+            <h3>YU DESIGN STUDIO</h3>
+            <div class="dashed-line"></div>
+            <div class="position">CEO </div>
+          </div>
+          <div class="date"> Oct 2021 — Now</div>
+        </li>
+        <li>
+                    <div class="experience-item">
             <h3>Nacew</h3>
             <div class="dashed-line"></div>
             <div class="position">UI/UX Designer Internship</div>
@@ -21,27 +29,11 @@
         </li>
         <li>
           <div class="experience-item">
-            <h3>YU DESIGN STUDIO</h3>
-            <div class="dashed-line"></div>
-            <div class="position">Graphic Designer | UX/UI Designer</div>
-          </div>
-          <div class="date"> Oct 2021 — Now</div>
-        </li>
-        <li>
-          <div class="experience-item">
             <h3>Upwork</h3>
             <div class="dashed-line"></div>
             <div class="position"> Graphic Designer | UX/UI Designer </div>
           </div>
           <div class="date">Jul 2021 — Now</div>
-        </li>
-        <li>
-          <div class="experience-item">
-            <h3>Likuid Creative Agency</h3>
-            <div class="dashed-line"></div>
-            <div class="position">UI/UX Designer | Graphic Designer (Internship)</div>
-          </div>
-          <div class="date">Jun — Sep 2021</div>
         </li>
       </div>
       <a href="https://www.linkedin.com/in/yllkauka/" class="buttonet" target="_blank" rel="noopener noreferrer">Visit my LinkedIn</a>

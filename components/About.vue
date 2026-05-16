@@ -8,13 +8,16 @@
   <p>Over the years, I’ve worked on exciting projects that have honed my skills and challenged my creativity. From collaborating with teams to solving complex design problems, every step has been a learning experience that shaped me into the designer I am today.</p>
   <p>Beyond my work, I’m a strong believer in continuous learning and personal growth. I find inspiration in everyday life and enjoy connecting with others who share a passion for design and innovation. Whether it’s exploring new trends or diving into creative challenges, I strive to make a meaningful impact through my work.</p>
   <p>In my free time, you’ll often find me exploring nature, spending time with family, or pursuing personal projects that spark my creativity. My journey as a designer is ever-evolving, and I’m excited to see where it takes me next.</p>
-  <p>Feel free to connect with me on <a href="https://www.linkedin.com/in/yllkauka/">LinkedIn</a> to learn more or collaborate on exciting projects.</p>
+  <p>Feel free to connect with me on <a href="https://www.linkedin.com/in/yllkauka/">Linkedin</a> to learn more or collaborate on exciting projects.</p>
 </div>
 
-    <div class="gallery default-animate">
-      <img src="../assets/1.jpg" alt="" />
-      <img src="../assets/2.jpg" alt="" />
-      <img src="../assets/3.jpg" alt="" />
+<div class="gallery default-animate">
+      <img src="../assets/01.jpg" alt="" />
+      <img src="../assets/02.jpg" alt="" />
+      <img src="../assets/03.jpg" alt="" />
+      <img src="../assets/04.jpg" alt="" />
+      <img src="../assets/05.jpg" alt="" />
+      <img src="../assets/06.jpg" alt="" />
     </div>
   </section>
   <ExperienceComponent></ExperienceComponent>

@@ -28,10 +28,38 @@
       <section class="hero">
         <h1 class="centered" ref="heroTitleSection"><span class="highlight">Hello! I’m Yllka,</span> a Product Designer</h1>
         <p class="centered" ref="heroTextSection">
-         I'm Yllka from Kosova, a product designer with nearly three years of experience. I focus on creating intuitive interfaces and refining digital products. I've worked with various companies, delivering impactful designs, and I'm also the proud founder of a growing design community.
+         I'm Yllka from Kosova, a product designer with five years of experience. I focus on creating intuitive interfaces and refining digital products. I've worked with various companies, delivering impactful designs, and I'm also the proud founder of a growing design community.
         </p>
       </section>
       <section class="gallery" ref="gallerySection">
+
+        <!-- YU Design Studio -->
+        <a href="/yu" class="card">
+          <div class="card-image">
+            <img src="../assets/yu_cover.jpg" alt="YU Design Studio" />
+          </div>
+          <div class="card-info">
+            <p class="card-type">UX/UI & Logo & Branding</p>
+            <div class="card-title">
+              <h3>YU Design Studio</h3>
+              <img class="arrow" src="../assets/arrow.svg" alt="" />
+            </div>
+          </div>
+        </a>
+
+        <!-- Swifty Global -->
+        <a href="/swifty" class="card">
+          <div class="card-image">
+            <img src="../assets/swifty_cover.png" alt="Swifty Global" />
+          </div>
+          <div class="card-info">
+            <p class="card-type">UX/UI & Branding</p>
+            <div class="card-title">
+              <h3>Swifty Global</h3>
+              <img class="arrow" src="../assets/arrow.svg" alt="" />
+            </div>
+          </div>
+        </a>
 
         <!-- Vivi Arkitekture -->
         <a href="/vivi" class="card">

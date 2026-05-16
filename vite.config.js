@@ -10,10 +10,12 @@ export default defineConfig({
         },
     },
     build: {
+        outDir: 'dist',  // Explicitly set the output directory
         sourcemap: false,
     },
-    plugins: [vue()]
-    // Other Vite configurations if needed
+    plugins: [vue()],
 });
+
+
 
 
