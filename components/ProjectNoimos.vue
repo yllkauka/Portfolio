@@ -42,17 +42,17 @@
             <p>The data inputted by users in the initial version of the app not only informs claim evaluations but also serves as training data for the machine learning models. Consequently, precision and adherence to consistent guidelines were necessary for each claim. The accompanying screenshots showcase the use of silhouette assistance to aid users in capturing comprehensive images of the vehicle.</p>
           </div>
           <div class="gallery reduced-gallery" id="gallery1">
-            <a href="../assets/p_noimos/capture-01.jpg" target="_blank">
-              <img src="../assets/p_noimos/capture-01.jpg" alt="Interface for camera capture from front">
+            <a href="../assets/placeholder.jpg" target="_blank">
+              <img src="../assets/placeholder.jpg" alt="Interface for camera capture from front">
             </a>
-            <a href="../assets/p_noimos/capture-02.jpg" target="_blank">
-              <img src="../assets/p_noimos/capture-02.jpg" alt="Interface for camera capture from front">
+            <a href="../assets/placeholder.jpg" target="_blank">
+              <img src="../assets/placeholder.jpg" alt="Interface for camera capture from front">
             </a>
-            <a href="../assets/p_noimos/capture-03.jpg" target="_blank">
-              <img src="../assets/p_noimos/capture-03.jpg" alt="Interface for camera capture from left corner">
+            <a href="../assets/placeholder.jpg" target="_blank">
+              <img src="../assets/placeholder.jpg" alt="Interface for camera capture from left corner">
             </a>
-            <a href="../assets/p_noimos/mark-damage.jpg" target="_blank">
-              <img src="../assets/p_noimos/mark-damage.jpg" alt="Interface for selecting where there is a damage in the car">
+            <a href="../assets/placeholder.jpg" target="_blank">
+              <img src="../assets/placeholder.jpg" alt="Interface for selecting where there is a damage in the car">
             </a>
           </div>
         </section>
@@ -79,8 +79,8 @@
             <p>Following the data input process, we generated a comprehensive claim report where all damages were meticulously annotated and marked. This manual annotation process, performed by mechanics, serves as foundational training data for machine learning models. These models are trained to discern between damages and non-damages, identify various types of damage, and accurately categorize them.</p>
           </div>
           <div class="gallery" id="gallery2">
-            <a href="../assets/p_noimos/claim.jpg" target="_blank">
-              <img src="../assets/p_noimos/claim.jpg" alt="Interface for claim report highlighting claim summary, documents attachments, damage detail pictures and general pictures of the car">
+            <a href="../assets/placeholder.jpg" target="_blank">
+              <img src="../assets/placeholder.jpg" alt="Interface for claim report highlighting claim summary, documents attachments, damage detail pictures and general pictures of the car">
             </a>
           </div>
         </section>

@@ -46,23 +46,23 @@
             <p>Simultaneously, the configuration would be much more visual and utilize drag & drop elements.</p>
           </div>
           <div class="gallery" id="gallery1">
-            <a href="../assets/p_jsu/jsu-components.jpg" target="_blank">
-              <img src="../assets/p_jsu/jsu-components.jpg" alt="Interface for components selection">
+            <a href="../assets/placeholder.jpg" target="_blank">
+              <img src="../assets/placeholder.jpg" alt="Interface for components selection">
             </a>
-            <a href="../assets/p_jsu/jsu-templates.jpg" target="_blank">
-              <img src="../assets/p_jsu/jsu-templates.jpg" alt="Interface for templates selection">
+            <a href="../assets/placeholder.jpg" target="_blank">
+              <img src="../assets/placeholder.jpg" alt="Interface for templates selection">
             </a>
-            <a href="../assets/p_jsu/jsu-options.jpg" target="_blank">
-              <img src="../assets/p_jsu/jsu-options.jpg" alt="Interface for parameters customization">
+            <a href="../assets/placeholder.jpg" target="_blank">
+              <img src="../assets/placeholder.jpg" alt="Interface for parameters customization">
             </a>
-            <a href="../assets/p_jsu/jsu-validation.jpg" target="_blank">
-              <img src="../assets/p_jsu/jsu-validation.jpg" alt="Interface for validation of the applied rules">
+            <a href="../assets/placeholder.jpg" target="_blank">
+              <img src="../assets/placeholder.jpg" alt="Interface for validation of the applied rules">
             </a>
-            <a href="../assets/p_jsu/jsu-reporting.jpg" target="_blank">
-              <img src="../assets/p_jsu/jsu-reporting.jpg" alt="Interface for reporting">
+            <a href="../assets/placeholder.jpg" target="_blank">
+              <img src="../assets/placeholder.jpg" alt="Interface for reporting">
             </a>
-            <a href="../assets/p_jsu/jsu-settings.jpg" target="_blank">
-              <img src="../assets/p_jsu/jsu-settings.jpg" alt="Interface for settings">
+            <a href="../assets/placeholder.jpg" target="_blank">
+              <img src="../assets/placeholder.jpg" alt="Interface for settings">
             </a>
           </div>
         </section>
@@ -84,11 +84,11 @@
           <div class="before-and-after">
             <figure>
               <figcaption>JSU version 1 - before redesign</figcaption>
-              <img src="../assets/p_jsu/jsu-before.jpg" alt="Interface before redesign">
+              <img src="../assets/placeholder.jpg" alt="Interface before redesign">
             </figure>
             <figure>
               <figcaption>JSU version 2 - after redesign</figcaption>
-              <img src="../assets/p_jsu/jsu-after.jpg" alt="Interface after redesign">
+              <img src="../assets/placeholder.jpg" alt="Interface after redesign">
             </figure>
           </div>
         </section>

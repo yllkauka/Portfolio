@@ -54,10 +54,10 @@
         <section class="prizes">
           <h2>Prizes and awards</h2>
           <div class="prizes-container">
-            <a href="https://worlddidacaward.org/winner23-grafari" target="_blank"><img src="../assets/p_constructor/prize-worlddidac.png" alt="Worlddidac Award"></a>
-            <a href="https://designpreis.ch/" target="_blank"><img src="../assets/p_constructor/prize-designprize.png" alt="Design Prize Switzerland Winner 2021"></a>
-            <a href="https://www.dyslexiaaward.com" target="_blank"><img src="../assets/p_constructor/prize-dyslexia.png" alt="Dyslexia Quality Award"></a>
-            <a href="https://jacobsfoundation.org/awards" target="_blank"><img src="../assets/p_constructor/prize-jacobs.png" alt="Klaus J. Jacobs Awards"></a>
+            <a href="https://worlddidacaward.org/winner23-grafari" target="_blank"><img src="../assets/placeholder.jpg" alt="Worlddidac Award"></a>
+            <a href="https://designpreis.ch/" target="_blank"><img src="../assets/placeholder.jpg" alt="Design Prize Switzerland Winner 2021"></a>
+            <a href="https://www.dyslexiaaward.com" target="_blank"><img src="../assets/placeholder.jpg" alt="Dyslexia Quality Award"></a>
+            <a href="https://jacobsfoundation.org/awards" target="_blank"><img src="../assets/placeholder.jpg" alt="Klaus J. Jacobs Awards"></a>
           </div>
         </section>
 
@@ -67,29 +67,29 @@
             <p>Grafari guides children aged 6 and above through a spelling journey, from the introduction of letters and sounds to the basics of writing and typing. The goal during the training is to get the learner to a full focus mode, making elements on screen as clean and less distractive as possible. While exploring other sections of the app, learners engage in various activities such as listening to stories, purchasing items in the virtual shop, and tracking their progress.</p>
           </div>
           <div class="gallery" id="gallery1">
-            <a href="../assets/p_constructor/grafari1.jpg" target="_blank">
-              <img src="../assets/p_constructor/grafari1.jpg" alt="Grafari cockpit">
+            <a href="../assets/placeholder.jpg" target="_blank">
+              <img src="../assets/placeholder.jpg" alt="Grafari cockpit">
             </a>
-            <a href="../assets/p_constructor/grafari2.jpg" target="_blank">
-              <img src="../assets/p_constructor/grafari2.jpg" alt="Grafari exercise: handwriting">
+            <a href="../assets/placeholder.jpg" target="_blank">
+              <img src="../assets/placeholder.jpg" alt="Grafari exercise: handwriting">
             </a>
-            <a href="../assets/p_constructor/grafari3.jpg" target="_blank">
-              <img src="../assets/p_constructor/grafari3.jpg" alt="Grafari exercise: typing phonetic words">
+            <a href="../assets/placeholder.jpg" target="_blank">
+              <img src="../assets/placeholder.jpg" alt="Grafari exercise: typing phonetic words">
             </a>
-            <a href="../assets/p_constructor/grafari4.jpg" target="_blank">
-              <img src="../assets/p_constructor/grafari4.jpg" alt="Grafari exercise: typing with phones">
+            <a href="../assets/placeholder.jpg" target="_blank">
+              <img src="../assets/placeholder.jpg" alt="Grafari exercise: typing with phones">
             </a>
-            <a href="../assets/p_constructor/grafari5.jpg" target="_blank">
-              <img src="../assets/p_constructor/grafari5.jpg" alt="Grafari exercise: discover capital letters">
+            <a href="../assets/placeholder.jpg" target="_blank">
+              <img src="../assets/placeholder.jpg" alt="Grafari exercise: discover capital letters">
             </a>
-            <a href="../assets/p_constructor/grafari6.jpg" target="_blank">
-              <img src="../assets/p_constructor/grafari6.jpg" alt="Grafari Story World map">
+            <a href="../assets/placeholder.jpg" target="_blank">
+              <img src="../assets/placeholder.jpg" alt="Grafari Story World map">
             </a>
-            <a href="../assets/p_constructor/grafari7.jpg" target="_blank">
-              <img src="../assets/p_constructor/grafari7.jpg" alt="Grafari Story World scene">
+            <a href="../assets/placeholder.jpg" target="_blank">
+              <img src="../assets/placeholder.jpg" alt="Grafari Story World scene">
             </a>
-            <a href="../assets/p_constructor/grafari8.jpg" target="_blank">
-              <img src="../assets/p_constructor/grafari8.jpg" alt="Grafari Progress Passport">
+            <a href="../assets/placeholder.jpg" target="_blank">
+              <img src="../assets/placeholder.jpg" alt="Grafari Progress Passport">
             </a>
           </div>
         </section>
@@ -100,17 +100,17 @@
             <p>The coach provides educators, supervisors and parents with valuable insights into learners' activities and sessions. Users can analyze individual and group progress, as well as offer support to learners who may require support.</p>
           </div>
           <div class="gallery" id="gallery2">
-            <a href="../assets/p_constructor/coach1.jpg" target="_blank">
-              <img src="../assets/p_constructor/coach1.jpg" alt="Coach learning board interface">
+            <a href="../assets/placeholder.jpg" target="_blank">
+              <img src="../assets/placeholder.jpg" alt="Coach learning board interface">
             </a>
-            <a href="../assets/p_constructor/coach2.jpg" target="_blank">
-              <img src="../assets/p_constructor/coach2.jpg" alt="Coach learner progress interface">
+            <a href="../assets/placeholder.jpg" target="_blank">
+              <img src="../assets/placeholder.jpg" alt="Coach learner progress interface">
             </a>
-            <a href="../assets/p_constructor/coach3.jpg" target="_blank">
-              <img src="../assets/p_constructor/coach3.jpg" alt="Coach Download center interface">
+            <a href="../assets/placeholder.jpg" target="_blank">
+              <img src="../assets/placeholder.jpg" alt="Coach Download center interface">
             </a>
-            <a href="../assets/p_constructor/coach4.jpg" target="_blank">
-              <img src="../assets/p_constructor/coach4.jpg" alt="Coach Educational content interface">
+            <a href="../assets/placeholder.jpg" target="_blank">
+              <img src="../assets/placeholder.jpg" alt="Coach Educational content interface">
             </a>
           </div>
         </section>
@@ -152,11 +152,11 @@
           <div class="before-and-after">
             <figure>
               <figcaption>Different variables for the component</figcaption>
-                <img src="../assets/p_constructor/documentation1.jpg" alt="Session details component in Figma">
+                <img src="../assets/placeholder.jpg" alt="Session details component in Figma">
             </figure>
             <figure>
               <figcaption>Component guide</figcaption>
-                <img src="../assets/p_constructor/documentation2.jpg" alt="Component documentation guide in Figma">
+                <img src="../assets/placeholder.jpg" alt="Component documentation guide in Figma">
             </figure>
           </div>
         </section>

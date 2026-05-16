@@ -12,12 +12,12 @@
 </div>
 
 <div class="gallery default-animate">
-      <img src="../assets/01.jpg" alt="" />
-      <img src="../assets/02.jpg" alt="" />
-      <img src="../assets/03.jpg" alt="" />
-      <img src="../assets/04.jpg" alt="" />
-      <img src="../assets/05.jpg" alt="" />
-      <img src="../assets/06.jpg" alt="" />
+      <img src="../assets/1.jpg" alt="" />
+      <img src="../assets/2.jpg" alt="" />
+      <img src="../assets/3.jpg" alt="" />
+      <img src="../assets/4.jpg" alt="" />
+      <img src="../assets/5.jpg" alt="" />
+      <img src="../assets/6.jpg" alt="" />
     </div>
   </section>
   <ExperienceComponent></ExperienceComponent>
