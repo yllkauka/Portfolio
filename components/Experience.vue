@@ -71,6 +71,10 @@ export default {
       ...revealDefault, delay: 360,
     });
   },
+
+  beforeUnmount() {
+    ScrollReveal().destroy();
+  },
 };
 </script>
 
