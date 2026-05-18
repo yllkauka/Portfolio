@@ -195,7 +195,7 @@ export default {
   content: '';
   position: absolute;
   top: -120px;
-  right: -80px;
+  right: 0;
   width: 640px;
   height: 480px;
   background: radial-gradient(ellipse at center, rgba(149, 254, 58, 0.05) 0%, transparent 65%);

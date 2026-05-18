@@ -82,7 +82,6 @@ export default {
   flex-direction: column;
   align-items: flex-start;
   gap: 40px;
-  padding: 0 40px;
 }
 
 /* Eyebrow */
@@ -156,15 +155,8 @@ export default {
   }
 }
 
-@media (max-width: 767px) {
-  .experience {
-    padding: 0 24px;
-  }
-}
-
 @media (max-width: 480px) {
   .experience {
-    padding: 0 16px;
     gap: 28px;
   }
   .exp-item {
