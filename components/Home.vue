@@ -30,7 +30,7 @@
     <section class="hero" ref="heroRef">
       <div class="hero-badge" ref="heroBadge">
         <span class="badge-dot"></span>
-        <span>Available for work · 2025</span>
+        <span>Available for work · 2026</span>
       </div>
       <h1 class="hero-title" ref="heroTitle">
         Turning ideas into<br>

@@ -1,5 +1,6 @@
 // router.js
 import { createRouter, createWebHashHistory } from 'vue-router';
+import { nextTick } from 'vue';
 import Home from './components/Home.vue';
 import About from './components/About.vue';
 import ProjectTemplate from './components/ProjectTemplate.vue';
@@ -40,9 +41,12 @@ const routes = [
 const router = createRouter({
     history: createWebHashHistory(),
     routes,
-    scrollBehavior() {
-        return { top: 0, behavior: 'instant' };
-    },
+});
+
+router.afterEach(() => {
+    nextTick(() => {
+        window.scrollTo({ top: 0, left: 0 });
+    });
 });
 
 export default router;
