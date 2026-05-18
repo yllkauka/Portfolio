@@ -82,16 +82,17 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
-  transition: background-color 0.4s ease, border-color 0.4s ease, backdrop-filter 0.4s ease;
-  border-bottom: 1px solid transparent;
+  padding: 18px 40px;
+  background: rgba(5, 5, 5, 0.55);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  transition: background 0.35s ease, border-color 0.35s ease;
 }
 
 .header.scrolled {
-  background-color: rgba(5, 5, 5, 0.75);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
-  border-bottom-color: rgba(255, 255, 255, 0.07);
+  background: rgba(5, 5, 5, 0.88);
+  border-bottom-color: rgba(255, 255, 255, 0.09);
 }
 
 /* ── Logo ── */
